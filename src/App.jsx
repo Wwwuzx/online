@@ -12,6 +12,8 @@ function App() {
     return items.filter(item => item.toLowerCase().includes(value.toLowerCase()));
   };
 
+  const a = 10;
+  console.log(a);
 
   const handleChange = (e) => {
     const value = e.target.value;
