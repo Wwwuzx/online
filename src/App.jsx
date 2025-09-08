@@ -4,6 +4,7 @@ import './App.css'
 
 function App() {
   const [input, setInput] = useState('');
+  
   const [list, setList] = useState([]);
 
   const heavyFilter = (value) => {
